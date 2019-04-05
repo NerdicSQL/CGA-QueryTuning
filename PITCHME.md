@@ -1,6 +1,6 @@
 @snap[west]
-# Snippets: 
-## Quickly reusable code
+# Query Tuning: 
+## The art of easing the pain!
 @snapend
 
 ---
