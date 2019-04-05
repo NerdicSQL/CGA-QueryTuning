@@ -5,61 +5,64 @@
 
 ---
 @snap[west span]
-## Johan Kangasniemi
-
-### SQL Server Developer 
-Technical Business Analyst with CGA <br>
-
-@fa[twitter] @NerdicSQL <br>
-@fa[envelope] johan@nerdic.it <br>
-@fa[github] github.com/NerdicSQL
-@snapend
+## Content by Johan Kangasniemi
 
 ---
 @snap[west span]
 ## Contents
 
-An overview of how to write and use snippets for SSMS
+An overview of how to tune queries on SQL Server using the available tools in SSMS
 @snapend
 
 ---
 @snap[north-west]
-## Snippets in SSMS
+## Why query tune?
 @snapend
 @snap[centre]
 @ul
-- What are snippets?
-- Why should I use them?
-- When should I use them?
+- Less resource requirement
+- Lighter queries tend to run faster
+- Lighter queries can allow more queries to run at the same time
+- Reduces locking
+- Makes best use of the server
 @ulend
 @snapend
 
 ---
 @snap[north-west]
-## Snippets in SSMS
+## What are we looking for?
 @snapend
+
 @snap[centre]
 @ul
-- .snippet extension <br>
-- XML <br>
-- variables (literals) <br>
-- tooltips <br>
-- descriptions <br>
-- and more!
+- Mismatch between Expected and Actual Rows
+- "Strange" operators
+- Warnings 
 @ulend
 @snapend
 
----?code=assets/code/TryCatch.snippet&lang=xml&title=Example .snippets file
+---
+@snap[north-west]
+## Tools we'll use:
+@snapend
+@snap[centre]
+@ul
+- Live Query Stats
+- Stats Time and Stats IO
+- Estimated and Actual Query plans
+@ulend
+@snapend
 
-@[12-20](Header information)
-@[16](Thanks BOL!)
-@[17-19](Two types: Extends/Surrounds)
-@[21](Start of the actual snippet)
-@[22-28](Declarations, including literals)
-@[29-40](Code Language = SQL, *insert code here*
-@[32](Reserved words)
-@[24-26,37](The literal $CatchCode)
-
+---
+@snap[north-west]
+## Live Query Stats
+@snapend
+@snap[centre]
+@ul
+- "Living" version of the query plan; similar to SSIS flows
+- Visual aid to see bottle necks in queries
+@ulend
+@snapend
 ---
 
 # DEMO!
