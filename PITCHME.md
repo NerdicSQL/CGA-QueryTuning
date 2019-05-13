@@ -6,6 +6,7 @@
 ---
 @snap[west span]
 ## Content by Johan Kangasniemi 
+
 (and Cyanne Wilcox!)
 
 ---
