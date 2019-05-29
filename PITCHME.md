@@ -301,7 +301,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Estimated vs Actual
 @snapend
 @snap[west span-75]
-![QueryPlanEstimatedvsActual](assets/images/QueryPlan_EstimatedvsActual.jpg)
+![QueryPlanEstimatedvsActual](assets/images/QueryPlan_EstimatevsActual.jpg)
 @snapend
 
 @snap[east span-25]
