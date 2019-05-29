@@ -106,7 +106,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Operators, 1
 @snapend
 @snap[centre]
-![QueryPlan](cga-querytuning/images/QueryPlan.png)
+![QueryPlan](images/QueryPlan.png)
 @snapend
 
 
