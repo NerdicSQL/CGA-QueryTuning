@@ -4,13 +4,14 @@
 @snapend
 
 ---
-@snap[west span]
+@snap[west]
 ## Content by Johan Kangasniemi 
 
 (and Cyanne Wilcox!)
+@snapend
 
 ---
-@snap[west span]
+@snap[west]
 ## Contents
 
 An overview of how to tune queries on SQL Server using the available tools in SSMS
@@ -167,10 +168,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## First Operator
 @snapend
-@snap[west]
+@snap[west span-40]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @snapend
-@snap[east]
+
+@snap[east span-40]
 @ul
 - Contains the "query level" information
 - Total cost
