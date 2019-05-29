@@ -250,7 +250,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Fat pipes
 @snapend
 @snap[west span-75]
-![QueryPlanCostlyOperator](assets/images/QueryPlan_FatPipes.PNG)
+![QueryPlanFatPipes](assets/images/QueryPlan_FatPipes.PNG)
 @snapend
 
 @snap[east span-25]
@@ -301,7 +301,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Estimated vs Actual
 @snapend
 @snap[west span-75]
-![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.jpg)
+![QueryPlanEstimatedvsActual](assets/images/QueryPlan_EstimatedvsActual.jpg)
 @snapend
 
 @snap[east span-25]
