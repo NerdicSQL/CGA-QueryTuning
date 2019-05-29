@@ -218,7 +218,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## Warnings - Properties
 @snapend
-@snap[west span-75]
+@snap[south-west span-75]
 ![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.png)
 @snapend
 
