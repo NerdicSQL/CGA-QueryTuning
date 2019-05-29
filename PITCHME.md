@@ -219,7 +219,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Warnings - Properties
 @snapend
 @snap[west span-75]
-![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.PNG&size=auto 75%)
+![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.PNG)
 @snapend
 
 @snap[east span-25]
