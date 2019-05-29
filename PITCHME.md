@@ -163,16 +163,14 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @ulend
 @snapend
 
----
+---?color=black
 
+### First Operator
 
-## First Operator
-
-@div[left-75 fragment]
+@div[left-75]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @divend
-
-@div[right-25 fragment]
+@div[right-25]
 @ul[cli]
 - Contains the "query level" information
 - Total cost
