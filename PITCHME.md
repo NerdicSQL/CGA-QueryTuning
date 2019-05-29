@@ -106,7 +106,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Query plan: Overview
 @snapend
 @snap[centre]
-![QueryPlan](assets/images/QueryPlan.PNG)
+![QueryPlan](assets/images/Query.PNG)
 @snapend
 
 ---
