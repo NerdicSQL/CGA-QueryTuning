@@ -174,11 +174,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 @snap[east span-20]
 @ul[cli]
-Contains the "query level" information
-Total cost
-How well it was optimised
-Missing indexes
-AND MORE...
+- Contains the "query level" information
+- Total cost
+- How well it was optimised
+- Missing indexes
+- AND MORE...
 @ulend
 @snapend
 
