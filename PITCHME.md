@@ -173,14 +173,13 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snapend
 
 @snap[east span-20]
-@size[50%](
-@ul
+@ul[checklistitems]
 Contains the "query level" information
 Total cost
 How well it was optimised
 Missing indexes
 AND MORE...
-@ulend)
+@ulend
 @snapend
 
 ---
