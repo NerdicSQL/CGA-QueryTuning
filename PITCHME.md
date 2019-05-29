@@ -70,10 +70,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Set Statistics Time and Set Statistics IO {ON|OFF}
+## Set Statistics Time, Set Statistics IO
 @snapend
 @snap[centre]
 @ul
+- Toggle {ON|OFF} in session
 - Provide evidence
 - Observer effect should be considered
 - Easy, Quick, Effective
