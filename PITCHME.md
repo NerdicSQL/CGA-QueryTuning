@@ -174,11 +174,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 @snap[east span-20]
 @ul
-@size[50%](- Contains the "query level" information)
-@size[50%](- Total cost)
-@size[50%](- How well it was optimised)
-@size[50%](- Missing indexes)
-@size[50%](- AND MORE...)
+-@size[50%](Contains the "query level" information)
+-@size[50%](Total cost)
+-@size[50%](How well it was optimised)
+-@size[50%](Missing indexes)
+-@size[50%](AND MORE...)
 @ulend
 @snapend
 
