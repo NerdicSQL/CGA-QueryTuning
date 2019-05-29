@@ -56,6 +56,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snapend
 
 ---
+
 @snap[north-west]
 ## Live Query Stats
 @snapend
@@ -65,9 +66,46 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 - Visual aid to see bottle necks in queries
 @ulend
 @snapend
----
-
-# DEMO!
 
 ---
+
+@snap[north-west]
+## Set Statistics Time and Set Statistics IO {ON|OFF}
+@snapend
+@snap[centre]
+@ul
+- Provide evidence
+- Observer effect should be considered
+- Easy, Quick, Effective
+@ulend
+@snapend
+
+---
+
+# DEMO no. 1
+
+---
+
+@snap[north-west]
+## What's in a query plan?
+@snapend
+@snap[centre]
+@ul
+- Tells what SQL will do
+- Estimated/Actual
+- Operators
+- Pipes/Paths
+- Properties
+@ulend
+@snapend
+
+---
+
+@snap[north-west]
+## Operators, 1
+@snapend
+@snap[centre]
+![QueryPlan](images/QueryPlan.png)
+@snapend
+
 
