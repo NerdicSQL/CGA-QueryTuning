@@ -168,11 +168,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 ## First Operator
 
-@div[left-75]
+@div[left-75 fragment]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @divend
 
-@div[right-25]
+@div[right-25 fragment]
 @ul[cli]
 - Contains the "query level" information
 - Total cost
