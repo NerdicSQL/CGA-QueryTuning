@@ -282,7 +282,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Scans
 @snapend
 @snap[west span-75]
-![QueryPlanScans](assets/images/QueryPlan_ScansSeeks.PNG)
+![QueryPlanScans](assets/images/QueryPlan_ScansSeeks.png)
 @snapend
 
 @snap[east span-25]
@@ -301,7 +301,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Estimated vs Actual
 @snapend
 @snap[west span-75]
-![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.PNG)
+![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.jpg)
 @snapend
 
 @snap[east span-25]
