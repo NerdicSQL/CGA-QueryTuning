@@ -165,9 +165,9 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 ---
 
-@snap[north-west]
+
 ## First Operator
-@snapend
+
 @div[left-75]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @divend
