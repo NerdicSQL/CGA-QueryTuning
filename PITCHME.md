@@ -165,7 +165,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: First Operator
+## First Operator
 @snapend
 @snap[west]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
@@ -183,7 +183,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Warnings
+## Warnings
 @snapend
 @snap[west]
 ![QueryPlanWarning](assets/images/QueryPlan_Warning.PNG)
@@ -198,7 +198,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Warnings - ToolTip
+## Warnings - ToolTip
 @snapend
 @snap[west]
 ![QueryPlanWarningTooltip](assets/images/QueryPlan_Warning_ToolTip.PNG)
@@ -212,7 +212,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Warnings - Properties
+## Warnings - Properties
 @snapend
 @snap[west]
 ![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.PNG)
@@ -226,7 +226,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Most costly operator
+## Most costly operator
 @snapend
 @snap[west]
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_ExpensiveOperator.PNG)
@@ -242,7 +242,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Fat pipes
+## Fat pipes
 @snapend
 @snap[west]
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_FatPipes.PNG)
@@ -257,7 +257,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Strange Operators
+## Strange Operators
 @snapend
 @snap[west]
 ![QueryPlanStrangeOperator](https://www.sqlservergeeks.com/wp-content/uploads/kanchanbhattacharyya/sql-server-table-spool-operator-lazy-spool-part1/TableSpoolGrphPlan.jpg)
@@ -272,7 +272,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Scans
+## Scans
 @snapend
 @snap[west]
 ![QueryPlanScans](assets/images/QueryPlan_ScansSeeks.PNG)
@@ -290,7 +290,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Grant Fritchey's Checklist: Estimated vs Actual
+## Estimated vs Actual
 @snapend
 @snap[west]
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.PNG)
