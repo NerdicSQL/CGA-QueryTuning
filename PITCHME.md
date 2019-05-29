@@ -103,10 +103,44 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ---
 
 @snap[north-west]
-## Operators, 1
+## Query plan: Overview
 @snapend
 @snap[centre]
-![QueryPlan](images/QueryPlan.PNG)
+![QueryPlan](assets/images/QueryPlan.PNG)
 @snapend
 
+---
 
+@snap[north-west]
+## Query plan: Operator
+@snapend
+@snap[centre]
+![QueryPlan](assets/images/QueryPlan_Operator.PNG)
+@snapend
+
+---
+
+@snap[north-west]
+## Query plan: Pipes/Paths
+@snapend
+@snap[centre]
+![QueryPlan](assets/images/QueryPlan_Pipe.PNG)
+@snapend
+
+---
+
+@snap[north-west]
+## Query plan: Tooltips (Hover over)
+@snapend
+@snap[centre]
+![QueryPlan](assets/images/QueryPlan_Tooltip.PNG)
+@snapend
+
+---
+
+@snap[north-west]
+## Query plan: Properties (F4 in SSMS)
+@snapend
+@snap[centre]
+![QueryPlan](assets/images/QueryPlan_Properties.PNG)
+@snapend
