@@ -239,9 +239,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 @snap[east span-25]
 @ul[cli]
-- Estimated and Actual plans - not Live Query Plan
-- Not necessarily bad, could just be expensive
-- Business logic dictates whether it's appropriate or not
+- Estimated/Actual - not Live Query
+- Not always bad
 @ulend
 @snapend
 
