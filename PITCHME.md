@@ -191,8 +191,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanWarning](assets/images/QueryPlan_Warning.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Look for the cross
 - Click and hover to reveal...
 @ulend
@@ -207,8 +207,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanWarningTooltip](assets/images/QueryPlan_Warning_ToolTip.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Bottom: NO JOIN PREDICATE
 @ulend
 @snapend
@@ -222,8 +222,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Same warning as the tool tip
 @ulend
 @snapend
@@ -237,8 +237,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_ExpensiveOperator.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Estimated and Actual plans - not Live Query Plan
 - Not necessarily bad, could just be expensive
 - Business logic dictates whether it's appropriate or not
@@ -254,8 +254,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_FatPipes.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Filter rows as early as possible
 - Bigger pipe = More data
 @ulend
@@ -270,8 +270,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanStrangeOperator](https://www.sqlservergeeks.com/wp-content/uploads/kanchanbhattacharyya/sql-server-table-spool-operator-lazy-spool-part1/TableSpoolGrphPlan.jpg)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Anything you don't know
 - More common in complex queries
 @ulend
@@ -286,8 +286,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanScans](assets/images/QueryPlan_ScansSeeks.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Clustered Index Scan/Table Scan
 - Selective queries are commonly seeks
 - Seeks _can_ be better
@@ -305,8 +305,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.PNG)
 @snapend
 
-@snap[east span-20]
-@ul
+@snap[east span-25]
+@ul[cli]
 - Filter rows as early as possible
 - Bigger pipe = More data
 @ulend
