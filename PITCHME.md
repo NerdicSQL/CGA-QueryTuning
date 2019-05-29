@@ -168,11 +168,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## First Operator
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Contains the "query level" information
 - Total cost
@@ -180,18 +180,18 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 - Missing indexes
 - AND MORE...
 @ulend
-@snapend
+@divend
 
 ---
 
 @snap[north-west]
 ## Warnings
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanWarning](assets/images/QueryPlan_Warning.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Look for the cross
 - Click and hover to reveal...
@@ -203,30 +203,30 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## Warnings - ToolTip
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanWarningTooltip](assets/images/QueryPlan_Warning_ToolTip.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Bottom: NO JOIN PREDICATE
 @ulend
-@snapend
+@divend
 
 ---
 
 @snap[north-west]
 ## Warnings - Properties
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanWarningProperties](assets/images/QueryPlan_Warning_Properties.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Same warning as the tool tip
 @ulend
-@snapend
+@divend
 
 ---
 
@@ -234,66 +234,66 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ## Most costly operator
 @snapend
 @snap[west span-75]
-![QueryPlanCostlyOperator](assets/images/QueryPlan_ExpensiveOperator.PNG)
-@snapend
+![QueryPlanExpensiveOperator](assets/images/QueryPlan_ExpensiveOperator.PNG)
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Estimated and Actual plans - not Live Query Plan
 - Not necessarily bad, could just be expensive
 - Business logic dictates whether it's appropriate or not
 @ulend
-@snapend
+@divend
 
 ---
 
 @snap[north-west]
 ## Fat pipes
 @snapend
-@snap[west span-75]
-![QueryPlanCostlyOperator](assets/images/QueryPlan_FatPipes.PNG)
-@snapend
+@div[left-75]
+![QueryPlanFatPipes](assets/images/QueryPlan_FatPipes.PNG)
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Filter rows as early as possible
 - Bigger pipe = More data
 @ulend
-@snapend
+@divend
 
 ---
 
 @snap[north-west]
 ## Strange Operators
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanStrangeOperator](https://www.sqlservergeeks.com/wp-content/uploads/kanchanbhattacharyya/sql-server-table-spool-operator-lazy-spool-part1/TableSpoolGrphPlan.jpg)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Anything you don't know
 - More common in complex queries
 @ulend
-@snapend
+@divend
 
 ---
 
 @snap[north-west]
 ## Scans
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanScans](assets/images/QueryPlan_ScansSeeks.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Clustered Index Scan/Table Scan
 - Selective queries are commonly seeks
 - Seeks _can_ be better
 - Scans are _sometimes_ appropriate
 @ulend
-@snapend
+@divend
 
 
 ---
@@ -301,16 +301,16 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## Estimated vs Actual
 @snapend
-@snap[west span-75]
+@div[left-75]
 ![QueryPlanCostlyOperator](assets/images/QueryPlan_EstimatedvsActual.PNG)
-@snapend
+@divend
 
-@snap[east span-25]
+@div[right-25]
 @ul[cli]
 - Filter rows as early as possible
 - Bigger pipe = More data
 @ulend
-@snapend
+@divend
 
 ---
 
