@@ -168,11 +168,11 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 @snap[north-west]
 ## First Operator
 @snapend
-@snap[west span-40]
+@snap[west span-75]
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @snapend
 
-@snap[east span-40]
+@snap[east span-20]
 @ul
 - Contains the "query level" information
 - Total cost
