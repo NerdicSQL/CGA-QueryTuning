@@ -306,8 +306,8 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 
 @snap[east span-25]
 @ul[cli]
-- Filter rows as early as possible
-- Bigger pipe = More data
+- Statistics
+- Composite PKs
 @ulend
 @snapend
 
