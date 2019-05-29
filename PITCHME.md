@@ -172,7 +172,7 @@ An overview of how to tune queries on SQL Server using the available tools in SS
 ![QueryPlan](assets/images/QueryPlan_Properties.PNG)
 @snapend
 
-@snap[east span-20]
+@snap[east span-25]
 @ul[cli]
 - Contains the "query level" information
 - Total cost
